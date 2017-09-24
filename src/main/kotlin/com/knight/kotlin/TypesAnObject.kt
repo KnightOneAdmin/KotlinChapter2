@@ -10,7 +10,7 @@ class 我是城市北京( 坐标: String,  特色: String,  公园: String):城�
 
 open class 城市(var 坐标: String, var 特色: String, var 公园: String) {
     init {
-        println("new了一个${this.javaClass.simpleName}.java，它的坐标：$坐标,特色：$特色，公园：$公园")
+        println("new了一个${this.javaClass.simpleName}，它的坐标：$坐标,特色：$特色，公园：$公园")
     }
 }
 
